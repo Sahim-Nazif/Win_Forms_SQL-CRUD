@@ -94,6 +94,12 @@
             // txtCity
             // 
             this.txtCity.FormattingEnabled = true;
+            this.txtCity.Items.AddRange(new object[] {
+            "Toronto",
+            "Calgary",
+            "Vancouver",
+            "Ottawa",
+            "Montreal"});
             this.txtCity.Location = new System.Drawing.Point(219, 223);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(242, 21);
@@ -128,6 +134,7 @@
             this.btnSignUp.TabIndex = 9;
             this.btnSignUp.Text = "Sign Up";
             this.btnSignUp.UseVisualStyleBackColor = true;
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // btnReset
             // 
