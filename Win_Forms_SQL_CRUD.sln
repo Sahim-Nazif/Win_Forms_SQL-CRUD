@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win_Forms_SQL_CRUD", "Win_Forms_SQL_CRUD\Win_Forms_SQL_CRUD.csproj", "{580F82E8-2270-4D3E-AC0D-5E3C4DAC3043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{580F82E8-2270-4D3E-AC0D-5E3C4DAC3043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580F82E8-2270-4D3E-AC0D-5E3C4DAC3043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580F82E8-2270-4D3E-AC0D-5E3C4DAC3043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580F82E8-2270-4D3E-AC0D-5E3C4DAC3043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCD91930-26DD-4580-850D-442F13228E19}
+	EndGlobalSection
+EndGlobal
