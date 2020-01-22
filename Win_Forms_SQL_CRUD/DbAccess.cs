@@ -16,7 +16,7 @@ namespace Win_Forms_SQL_CRUD
         private static SqlDataAdapter adapter = new SqlDataAdapter();
         public SqlTransaction DbTran;
 
-        private static string strConnString = "";
+        private static string strConnString = "Data Source=(local);Initial Catalog=WinFormDatabase;Integrated Security=True";
 
 
 
