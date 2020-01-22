@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbAccess.cs" />
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>

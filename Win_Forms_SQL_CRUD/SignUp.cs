@@ -42,19 +42,23 @@ namespace Win_Forms_SQL_CRUD
                 MessageBox.Show("Please enter your name ! ");
 
             }
-            if (userEmail.Equals(""))
+            else if(userEmail.Equals(""))
             {
                 MessageBox.Show("Please enter your email address ! ");
 
             }
-            if (userPassword.Equals(""))
+            else if (userPassword.Equals(""))
             {
                 MessageBox.Show("Please enter a password ! ");
 
             }
-            if (userCity.Equals(""))
+           else if (userCity.Equals(""))
             {
                 MessageBox.Show("Please select your city from the dropdown menu ! ");
+
+            }
+            else
+            {
 
             }
         }
