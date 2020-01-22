@@ -13,6 +13,15 @@ namespace Win_Forms_SQL_CRUD
     public partial class SignUp : Form
     {
         string userName, userEmail, userPassword, userCity;
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtName.Text = null;
+            txtEmail.Text = null;
+            txtPassword.Text = null;
+            txtCity.Text = null;
+        }
+
         public SignUp()
         {
             InitializeComponent();

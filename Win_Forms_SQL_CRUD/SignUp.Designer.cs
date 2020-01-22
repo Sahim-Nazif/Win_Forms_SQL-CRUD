@@ -125,6 +125,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(242, 20);
             this.txtPassword.TabIndex = 8;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnSignUp
             // 
@@ -144,6 +145,7 @@
             this.btnReset.TabIndex = 10;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // SignUp
             // 
